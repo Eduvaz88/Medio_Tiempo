@@ -1,22 +1,21 @@
 html, body {
     padding: 0px;
     margin: 0px;
-    background-image: url("../images/inicio.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     font-family:  sans-serif;
-    color: #000;
+    color: #ffffff;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .container {
-    min-height: 500px;
-    max-width: 350px;
-    background: #fff;
-    border-radius: 2px;
-    border: 1px solid #e9e9e9;
+    min-height: 600px;
+    max-width: 450px;
+    background: #000000;
+    border-radius: 20px;
+    border: 4px solid #0D5B0E;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -25,6 +24,7 @@ html, body {
 }
 .container * {
     box-sizing: border-box;
+    background: #000000;
 }
 .pages {
     flex: 1;
@@ -43,8 +43,8 @@ html, body {
     flex-direction: column;
 }
 .brand-logo{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 .page h2{
     margin-bottom: 0;
@@ -88,7 +88,7 @@ html, body {
     outline: none;
 }
 .pages .page input[type=submit] {
-    background: #E60023;
+    background: #25B927;
     color: #f6f7f9;
     height: 40px;
     line-height: 40px;
