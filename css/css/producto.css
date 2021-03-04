@@ -11,6 +11,7 @@
   box-sizing: border-box;
 }
 body {
+  background-image: url("../images/Inicio.jpg")
   margin: 0;
   font-family: "Inconsolata";
 }
