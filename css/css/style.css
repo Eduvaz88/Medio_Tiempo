@@ -1,3 +1,7 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .bg-dark{
   background-color: #CA0E0E !important;
 }
@@ -5,6 +9,8 @@
   font-weight: bold;
   font-family: monospace;
   font-size: 30px;
+
+
 }
 h1{
   color: #F7F7F7
